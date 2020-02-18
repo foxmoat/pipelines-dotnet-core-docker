@@ -19,4 +19,4 @@ steps:
     buildContext: "$(Build.SourcesDirectory)"
     repository: $(imageName)
     command: build
-    Dockerfile: app/Dockerfile
+    Dockerfile: $(Build.SourcesDirectory)/Dockerfile
